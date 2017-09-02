@@ -1,7 +1,7 @@
 <?php include(HTML_DIR . 'overall/header.php') ?>
 
 <body>
-<section class="engine"><a rel="nofollow" href="#">Ocrend Software</a></section>
+<section class="engine"><a rel="nofollow" href="#">JPR Media Group</a></section>
 
 <?php include(HTML_DIR . 'overall/nav.php'); ?>
 
@@ -44,30 +44,26 @@
      <div class="modal-content">
        <div class="modal-header">
          <button type="button" class="close" data-dismiss="modal">&times;</button>
-         <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+         <h4 style="color:red;"><span class="glyphicon glyphicon-user"> Contacto</span></h4>
        </div>
        <div class="modal-body">
          <form role="form">
            <div class="form-group">
-             <label for="usrname"><span class="glyphicon glyphicon-user"></span> Usuario</label>
-             <input type="text" class="form-control" id="user_reg" placeholder="Introduce un nombre de usuario">
+             <label for="usrname"><span class="glyphicon glyphicon-user"></span> Tu nombre</label>
+             <input type="text" class="form-control" id="user_reg" placeholder="Nombre">
            </div>
            <div class="form-group">
              <label for="usrname"><span class="glyphicon glyphicon-envelope"></span> Email</label>
              <input type="email" class="form-control" id="email_reg" placeholder="Introduce tu correo electrónico">
            </div>
            <div class="form-group">
-             <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
-             <input type="text" class="form-control" id="pass_reg" placeholder="Introduce tu contraseña">
-           </div>
-           <div class="form-group">
-             <label for="psw_two"><span class="glyphicon glyphicon-eye-open"></span> Repite tu Contraseña</label>
-             <input type="text" class="form-control" id="pass_reg_dos" placeholder="Introduce tu contraseña de nuevo">
+             <label for="textarea">Mensaje</label>
+             <textarea class="form-control" id="textarea" placeholder="Escribre"></textarea>
            </div>
            <div class="checkbox">
              <label><input type="checkbox" id="tyc_reg" value="1" checked>Acepto los T&C</label>
            </div>
-           <button type="button" id="registrarme" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Registrarme</button>
+           <button type="button" id="registrarme" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Enviar</button>
          </form>
        </div>
        <div class="modal-footer">

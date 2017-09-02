@@ -10,10 +10,24 @@
                 <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span></div>
                 <div class="mbr-navbar__column mbr-navbar__menu">
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item">
-                          <a class="mbr-buttons__link btn text-white" href="#">INICIO</a></li><li class="mbr-navbar__item">
-                          <a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">INICIAR SESIÓN</a></li><li class="mbr-navbar__item">
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" data-toggle="modal" data-target="#Registro">REGISTRO</a></li></ul></div>
+                        <div class="mbr-navbar__column">
+                        <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active">
+                             <li class="mbr-navbar__item">
+                                 <a class="mbr-buttons__link btn text-white" href="#">INICIO</a>
+                             </li>
+                            <li class="mbr-navbar__item">
+                             <a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">PRODUCTOS</a>
+                             </li>
+                             <li class="mbr-navbar__item">
+                                 <a class="mbr-buttons__link btn text-white" href="#">¿QUIENES SOMOS?</a>
+                             </li>
+                            <li class="mbr-navbar__item">
+                        <div class="mbr-navbar__column">
+                         <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active">
+                                 <li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" data-toggle="modal" data-target="#Registro">ESCRIBENOS</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </div>

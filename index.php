@@ -1,5 +1,6 @@
 <?php 
 
+
 require('core/models/core.php');
 
 if(isset($_GET['view'])){
