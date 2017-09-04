@@ -37,7 +37,12 @@
      </div>
    </div>
  </div>
-<section class="mbr-section mbr-after-navbar" id="content1-10">
+<section style="background-image: url('views/app/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover; margin-bottom: 40px;" class="mbr-section mbr-after-navbar ritu" id="content1-10">
     <div class="mbr-section__container container mbr-section__container--isolated">
             <div class="row">
                 <!-- Carousel -->
@@ -50,7 +55,13 @@
                                         <!-- Slide 1...-->
                                         <div class="animated fadeInLeftBig slide-delay-2">
                                           <h1 style="color:white; font-size: 40px;" class="WhiteText content-right">Marketing Digital</h1>
+                                          <ul>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                          </ul>
                                         </div>
+
                                     </div>
                                     <div class="col-sm-12 col-md-5">
                                         <div class="animated fadeInRightBig text-center">
@@ -74,6 +85,11 @@
 
                                         <div class="content-right animated rotateInDownRight slide-delay-2">
                                             <h2 style="color:white; font-size: 30px;" class="WhiteText content-right">Gestion de Social Network</h2>
+                                            <ul>
+                                              <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                              <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                              <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -90,6 +106,11 @@
                                         <!-- Slide 3...-->
                                         <div class="content-left animated bounceInLeft slide-delay-2">
                                              <h2 style="color:white; font-size: 40px;" class="WhiteText content-right">Desarrollo Web</h2>
+                                             <ul>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                          </ul>
                                         </div>
 
                                     </div>
@@ -115,6 +136,11 @@
 
                                         <div class="content-right animated rotateInDownRight slide-delay-2">
                                              <h2 style="color:white; font-size: 30px;" class="WhiteText content-right">Posicionamiento en Google</h2>
+                                             <ul>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                            <li style="list-style: none; line-height: 50px; color: white; font-size: 25px; font-weight: bold;">Lorem ipsum dolor sit amet.</li>
+                                          </ul>
                                         </div>
                                     </div>
 
@@ -145,7 +171,7 @@
   <?php include(HTML_DIR . 'overall/thumbnails.php') ?>
 </section>
 <section class="sliderclients">
-  
+  <?php include(HTML_DIR . 'overall/slider.php') ?>
 </section>
 
 
