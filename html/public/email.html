@@ -1,0 +1,30 @@
+<div class="modal-content">
+  <div id="_AJAX_EMAIL_">
+  </div>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 style="color:red;"><span class="glyphicon glyphicon-user"> Contacto</span></h4>
+  </div>
+  <div class="modal-body">
+    <form role="form" onkeypress="return runScriptEmail(event)">
+      <div class="form-group">
+        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Tu nombre</label>
+        <input type="text" class="form-control" id="name_user" placeholder="Nombre">
+      </div>
+      <div class="form-group">
+        <label for="usrname"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+        <input type="email" class="form-control" id="email_contact" placeholder="Introduce tu correo electrónico">
+      </div>
+      <div class="form-group">
+        <label for="textarea">Mensaje</label>
+        <textarea class="form-control" id="text_user" placeholder="Escribre"></textarea>
+      </div>
+      <button type="button" id="registrarme" class="btn btn-default btn-success btn-block" onclick="goEmail()"><span class="glyphicon glyphicon-off"></span>Enviar</button>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
+  </div>
+</div>
+
+         <script src="views/app/js/email.js"></script>

@@ -13,7 +13,11 @@
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css">
   <link rel="stylesheet" href="views/mobirise/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="views/fontawesome/css/font.css" type="text/css">
+  <link rel="stylesheet" href="views/fontawesome/css/fonts.css" type="text/css">
+  <link rel="stylesheet" href="views/app/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="views/app/js/general.js"></script>
 
-  <title><?php echo APP_TITLE; ?></title>
+
+  <title><?php echo APP_TITLE ?></title>
 </head>

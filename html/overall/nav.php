@@ -19,7 +19,7 @@
                              <a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">PRODUCTOS</a>
                              </li>
                              <li class="mbr-navbar__item">
-                                 <a class="mbr-buttons__link btn text-white" href="#">¿QUIENES SOMOS?</a>
+                                 <a class="mbr-buttons__link btn text-white" href="?view=about">¿QUIENES SOMOS?</a>
                              </li>
                             <li class="mbr-navbar__item">
                         <div class="mbr-navbar__column">
