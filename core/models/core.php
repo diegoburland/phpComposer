@@ -12,7 +12,7 @@
 //constantes de la app
 
 	define('HTML_DIR', 'html/');
-	define('APP_TITLE', 'JRP Media Group');
+	define('APP_TITLE', 'JPR Media Group');
 	define('APP_COPY', 'Copyright &copy; '. date('Y', time()) . ' OcrendSoft');
 	define('APP_URL', 'http://localhost/ocrend/');
 
