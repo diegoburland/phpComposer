@@ -13,10 +13,10 @@
                         <div class="mbr-navbar__column">
                         <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active">
                              <li class="mbr-navbar__item">
-                                 <a class="mbr-buttons__link btn text-white" href="#">INICIO</a>
+                                 <a class="mbr-buttons__link btn text-white" href="http://localhost/jrp/?view=index">INICIO</a>
                              </li>
                             <li class="mbr-navbar__item">
-                             <a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">PRODUCTOS</a>
+                             <a src="?view=services" class="mbr-buttons__link btn text-white">SERVICIOS</a>
                              </li>
                              <li class="mbr-navbar__item">
                                  <a class="mbr-buttons__link btn text-white" href="?view=about">¿QUIENES SOMOS?</a>
